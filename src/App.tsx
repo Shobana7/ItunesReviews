@@ -20,7 +20,7 @@ const App = () => {
         let diff = Math.abs(
           now - new Date(data["records"][k]["time"]).valueOf()
         );
-
+    // difference set to 5 days instead of 48 hours
         if (diff / 36e5 <= 120) {
           data["records"][k]["time"] = new Date(data["records"][k]["time"])
             .toUTCString()
