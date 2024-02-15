@@ -1,12 +1,12 @@
 
-// const mongoose = require('mongoose');
+
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const reviewRoute =  require('./routes/reviewRoute.js');
 const poll = require('./polling.js');
 
-// const uri = "mongodb+srv://shobanac:72zjvRtnqqdon7Gl@cluster0.v81fpxh.mongodb.net/ChatApp?retryWrites=true&w=majority";
+
 
 const app = express();
 const server = require('http').Server(app);
