@@ -1,6 +1,6 @@
 # Itunes Reviews Viewer
 
-The web application  fetches and displays new reviews from the last 5 days for the iTunes app. It consists of nodejs backend and a React frontend.
+The web application  fetches and displays new reviews from the last 5 days for the iTunes app. It consists of nodejs backend and a React frontend. The backend polls the App Store api every 5 mins.
 
 ## Technologies Used
 
