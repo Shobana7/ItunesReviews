@@ -3,6 +3,7 @@ const axios = require('axios');
 const fs = require('fs/promises');
 
 let prevTimer = "";
+// sorts records before writing to file
 async function writeToFile(data) {
   let db = await fs.readFile('../database.json', { encoding: 'utf8' });
     db = JSON.parse(db);
